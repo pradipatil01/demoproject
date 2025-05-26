@@ -11,7 +11,7 @@ public class CountRedioButton {
 
 	public static void main(String[] args) {
 		
-		System.setProperty("webdriver.chrome.driver","C:\\Selenium\\chromedriver-win64\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\Selenium\\wb\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://udyamregistration.gov.in/Udyam_Login.aspx");
 	    //driver.manage().window().maximize();
